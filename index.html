@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Carte Profil</title>
+  <style>
+    body { font-family: sans-serif; display: flex; justify-content: center; padding: 2rem; background: #f5f5f5; }
+    .card { background: white; border-radius: 12px; padding: 2rem; max-width: 340px; text-align: center; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+    .avatar { width: 72px; height: 72px; border-radius: 50%; background: #CECBF6; color: #3C3489; font-size: 22px; font-weight: 500; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }
+    .name { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
+    .role { font-size: 13px; color: #777; margin: 0 0 1.25rem; }
+    .tags { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 1.25rem; }
+    .tag { font-size: 12px; padding: 4px 10px; border-radius: 20px; background: #EEEDFE; color: #534AB7; }
+    hr { border: none; border-top: 1px solid #eee; margin: 0 0 1.25rem; }
+    .links { display: flex; gap: 12px; justify-content: center; }
+    .btn { font-size: 13px; padding: 7px 18px; border-radius: 8px; border: 1px solid #ddd; background: transparent; cursor: pointer; }
+    .btn.primary { background: #534AB7; color: white; border-color: #534AB7; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">EK</div>
+    <p class="name">Eric K.</p>
+    <p class="role">Étudiant · CS & IA — KEYCE Academy</p>
+    <div class="tags">
+      <span class="tag">Cybersécurité</span>
+      <span class="tag">Réseaux</span>
+      <span class="tag">Java</span>
+      <span class="tag">Linux</span>
+    </div>
+    <hr>
+    <div class="links">
+      <button class="btn primary">Me contacter</button>
+      <button class="btn">Voir CV</button>
+    </div>
+  </div>
+</body>
+</html>
